@@ -1,0 +1,140 @@
+
+.btn1{
+    width: 11rem;
+    background: rgb(255, 0, 140);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.btn2{
+    width: 11rem;
+    background: rgb(7, 213, 45);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn3{
+    width: 11rem;
+    background: rgb(170, 232, 11);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn4{
+    width: 11rem;
+    background: rgb(13, 190, 225);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn5{
+    width: 11rem;
+    background: rgb(195, 10, 10);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn6{
+    width: 11rem;
+    background: rgb(238, 75, 5);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn7{
+    width: 11rem;
+    background: rgb(3, 9, 123);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn8{
+    width: 11rem;
+    background: rgb(55, 123, 3);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn9{
+    width: 11rem;
+    background: rgb(227, 79, 5);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.btn10{
+    width: 11rem;
+    background: rgb(123, 3, 77);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}

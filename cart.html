@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantite panier</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <button class="btn1" onclick="console.log(`Quantite Panier :${quantitePanier}`);">Show Quantite</button>
+    <button class="btn2" onclick="if (quantitePanier < 10) { quantitePanier++; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Le panier est plein'); }">Add to cart</button>
+    <button class="btn3" onclick="if (quantitePanier + 2 <= 10) { quantitePanier += 2; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Le panier est plein'); }">+2</button>
+    <button class="btn4" onclick="if (quantitePanier + 3 <= 10) { quantitePanier += 3; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Le panier est plein'); }">+3</button>
+    <button class="btn5" onclick="if (quantitePanier + 4 <= 10) { quantitePanier += 4; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Le panier est plein'); }">+4</button>
+    <button class="btn6" onclick="if (quantitePanier + 5 <= 10) { quantitePanier += 5; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Le panier est plein'); }">+5</button>
+    <button class="btn7" onclick="if (quantitePanier > 0) { quantitePanier--; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Le panier est vide'); }">Remove from Cart</button>
+    <button class="btn8" onclick="quantitePanier = 0; console.log(`Quantite Panier :${quantitePanier}`);">Reset cart</button>
+    <button class="btn9" onclick="if (quantitePanier >= 2) { quantitePanier -= 2; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Pas assez d\'articles dans le panier'); }">-2</button>
+    <button class="btn10" onclick="if (quantitePanier >= 3) { quantitePanier -= 3; console.log(`Quantite Panier :${quantitePanier}`); } else { alert('Pas assez d\'articles dans le panier'); }">-3</button>
+       <script> 
+         let quantitePanier = 0;
+       </script>
+
+</body>
+</html>

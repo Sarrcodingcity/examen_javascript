@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeu de tirage au sort</title>
+</head>
+<body>
+    <script>
+        //Générez un nombre aléatoire avec Math.round(). 
+        const nombreAleatoire = Math.round(Math.random() * 100);
+        console.log(nombreAleatoire);
+        //6g. Créez une instruction if et vérifiez :
+
+        if (nombreAleatoire < 0.5) {
+            console.log("pile");
+        } else {
+            console.log("face");
+        }
+        //6h. au lieu d’afficher « pile » ou « face » dans la console,
+        let resultat;
+        if (nombreAleatoire < 0.5) {
+            resultat = "pile";
+        } else {
+            resultat = "face";
+        }
+
+        console.log(resultat); 
+        //6i. disons que nous essayons de deviner le résultat. Créez une variable appelée « 
+        //deviner » et enregistrez votre prevision (« pile » ou « face »).
+        /*let deviner = "pile";
+        if (deviner === resultat) {
+            console.log("Vous gagnez !");
+        } else {
+            console.log("Vous perdez !");
+        }*/
+        //6j. (challenge) au lieu d'utiliser les instructions if dans les exercices précédents, 
+        //essayez de les changer en opérateurs ternaires (condition ? A : B)
+        const deviner = "pile"; 
+        const message = deviner === resultat ? "Vous gagnez !" : "Vous perdez !";
+        console.log(message);
+        
+
+    </script>
+</body>
+</html>
